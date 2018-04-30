@@ -1,0 +1,48 @@
+<div>
+    <div class="my-book">
+        <div class="description">
+            <h1 class="title-filter">New Book</h1>
+        </div>
+        <div class="book-container">
+            <div class="row" ng-controller="AddBookCtrl" >
+                <form ng-submit="done()">
+                    Title:<br>
+                    <input type="text" ng-model="book.name" name="name" class="input-join">
+                    Author:<br>
+                    <input type="text" ng-model="book.author" name="author" class="input-join">
+                    Language:<br>
+                    <input type="text" ng-model="book.language" name="language" class="input-join">
+                    Year of issue:<br>
+                    <input type="text" ng-model="book.yearOfIssue" name="yearOfIssue" class="input-join">
+                    Publishing house:<br>
+                    <input type="text" ng-model="book.publishingHouse" name="publishingHouse" class="input-join">
+                    Description:<br>
+                    <input type="text" ng-model="book.description" value="Enter description" class="input-join">
+                    Number of pages:<br>
+                    <input type="text" ng-model="book.numberOfPages" value="Enter number of pages" class="input-join">
+                    Price:<br>
+                    <input type="text" ng-model="book.price" value="Enter price" class="input-join">
+                    Category:<br>
+                    <input type="text" ng-model="book.category" value="Enter category" class="input-join">
+                    Condition:<br>
+                    <input type="text" ng-model="book.condition" value="Enter condition" class="input-join">
+                    Genre:<br>
+                    <input type="text" ng-model="genre.g1" value="Enter genre 1" class="input-join">
+                    <input type="text" ng-model="genre.g2" value="Enter genre 2" class="input-join">
+                    <input type="text" ng-model="genre.g3" value="Enter genre 3" class="input-join">
+                    <input type="text" ng-model="genre.g4" value="Enter genre 4" class="input-join">
+                    <input type="text" ng-model="genre.g5" value="Enter genre 5" class="input-join">
+                    Own impression:<br>
+                    <input type="text" ng-model="book.impression" value="Enter your impression of this book" class="input-join">
+                    <input type="submit" class="watch" value="Add">
+                </form>
+            </div>
+        </div>
+        <div class="explanation-message">
+            <p>
+                @Copyright-BookUnity
+            </p>
+        </div>
+    </div>
+    <a class="dashboard" href='#/dashboard'>Dashboard</a>
+</div>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="20.04mm" height="20.04mm" clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0" viewBox="0 0 211 211" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:none}
+    .fil1 {fill:#727271}
+    .fil0 {fill:#0AA98A}
+    .fil3 {fill:#FFED00;fill-rule:nonzero}
+   ]]>
+  </style>
+    <clipPath id="d">
+     <path d="m0 0h211v211h-211v-211z"/>
+    </clipPath>
+      <mask id="e">
+  <linearGradient id="f" x1="87.369" x2="249.52" y1="45.888" y2="247.99" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#fff" stop-opacity=".50196" offset=".25098"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+       <rect x="61" y="53" width="216" height="188" fill="url(#f)"/>
+      </mask>
+ </defs>
+   <path class="fil0" d="m0 0h211v211h-211v-211z"/>
+   <g clip-path="url(#d)">
+     <path class="fil1" d="m61 78c15 45 30 89 41 117s18 39 47 44c30 4 82 3 107-14 24-17 21-50 18-83l-132-84c-13-4-25-7-39-4-14 4-28 14-42 24z" mask="url(#e)"/>
+   </g>
+   <path class="fil2" d="m0 0h211v211h-211v-211z"/>
+   <path class="fil3" d="m116 137h-22v-6c0-7 1-13 4-17 2-5 7-10 14-16 7-5 11-9 12-11 2-3 3-6 3-9 0-5-2-9-5-12-4-3-9-5-15-5-7 0-12 2-16 5-4 4-7 9-8 16l-22-3c0-10 5-19 13-26s18-11 32-11c13 0 24 4 33 11 8 7 12 16 12 25 0 6-2 11-5 15-3 5-9 12-19 20-5 4-8 7-9 10-2 3-2 7-2 14zm-22 32v-24h22v24h-22z"/>
+</svg>

@@ -1,0 +1,54 @@
+<div ng-controller="SearchCtrl">
+    <div class="my-book-catalog">
+        <div class="description">
+            <h1 class="title-book">Catalog</h1>
+        </div>
+        <div class="book-container2">
+            <div class="row" id="field">
+				<div books> </div>
+            </div>
+        </div>
+        <div class="explanation-message">
+            <p>
+                @Copyright-BookUnity
+            </p>
+        </div>
+    </div>
+    <div class="right-panel">
+        <div class="center">
+            <div class="about-white-label2">
+                <label for="deal" >Choose a deal:</label>
+            </div>
+            <select class="filters" id="deal" ng-model="category">
+                <option>Sale</option>
+                <option>Exchange</option>
+            </select>
+            <label for="author" class="about-white-label2">Choose an author:</label>
+            <select class="filters" id="author" ng-model="author">
+                <option value="">All</option>
+                <option>Author1</option>
+                <option>Author2</option>
+                <option>Author3</option>
+            </select>
+            <label for="category" class="about-white-label2">Choose a category:</label>
+            <select class="filters" id="category" ng-model="genre">
+                <option value="">All</option>
+                <option>Category1</option>
+                <option>Category2</option>
+                <option>Category3</option>
+            </select>
+            <label for="year" class="about-white-label2">Choose a year:</label>
+            <select class="filters" id="year" ng-model="yearOfIssue">
+                <option value="">All</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2003</option>
+            </select>
+        </div>
+        <div class="bottom">
+            <div class="searchf-container">
+                <a class="searchf" ng-click="search()">Search</a>
+            </div>
+       </div>
+    </div>
+</div>
